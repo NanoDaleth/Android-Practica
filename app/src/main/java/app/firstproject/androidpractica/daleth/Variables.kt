@@ -2,11 +2,17 @@ package app.firstproject.androidpractica.daleth
 
 fun main(){
     //print("Daleth")
+    //valores no pueden ser reasignados
 
     //varaiables numericas
     val name="Nano"
     //Int entero/real
     val age:Int=30
+    println(age)
+    var age2:Int=25
+    println(age2)
+
+    age2=32
     //Long
     val example:Long=80000
     //float
@@ -22,6 +28,7 @@ fun main(){
 
     //String
     val stringExample:String="Nano"
+    val stringExample1="Nano"
 
     //varaibles booleanas
 
